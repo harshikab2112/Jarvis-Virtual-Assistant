@@ -1,5 +1,10 @@
 # 🎙️ Jarvis - AI Voice Assistant
-
+██╗ █████╗ ██████╗ ██╗   ██╗██╗███████╗
+██║██╔══██╗██╔══██╗██║   ██║██║██╔════╝
+██║███████║██████╔╝██║   ██║██║███████╗
+██ ██║██╔══██║██╔═══╝ ██║ ██║██║╚════██║
+╚█████╔╝██║ ██║██║ ╚██████╔╝██║███████║
+╚════╝ ╚═╝ ╚═╝╚═╝ ╚═════╝ ╚═╝╚══════╝
 Jarvis is a Python-based AI voice assistant capable of recognizing voice commands, playing music, opening websites, fetching news, and interacting with a local AI model (LLaMA3) or OpenAI's API for conversational responses.  
 It supports both **offline** (PyTTSx3) and **natural voice** (Google TTS) speech synthesis.
 
@@ -54,7 +59,17 @@ python main.py
   - Play Ribs
   - News
   - Tell me a joke
- 
+
+## 📁 Project Structure
+```
+jarvis-assistant/
+│-- main.py             # Main script for Jarvis
+│-- musicLibrary.py     # Music dictionary (name: URL)
+│-- client.py           # Client script to interact with Jarvis
+│-- requirements.txt    # Python dependencies
+│-- README.md           # Project documentation
+```
+
 ## 🛠️ Technologies Used
 - SpeechRecognition — For capturing voice commands
 - PyTTSx3 & gTTS — For speech output
@@ -64,9 +79,11 @@ python main.py
 - LLaMA3 / OpenAI API — For AI responses
 
 ### 📜 License
+
 This project is open-source. You can modify and use it for personal or educational purposes.
 
 ### 🚀 Future Improvements
+
 - Integrate weather updates.
 - Add reminder and timer features.
 - Improve hotword detection accuracy.
