@@ -8,7 +8,7 @@ import os
 import musicLibrary
 
 # ===== CONFIG =====
-NEWS_API_KEY = "47e733f35655427bb37cca9665823618"
+NEWS_API_KEY = "Your News API Key here"
 # OPENAI_API_KEY = "<Your OpenAI API Key Here>"
 WAKE_WORD = "jarvis"
 
@@ -172,3 +172,4 @@ if __name__ == "__main__":
         except KeyboardInterrupt:
             speak("Shutting down. Goodbye!")
             break
+
